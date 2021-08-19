@@ -33,7 +33,7 @@ body {
 }
 
 .label {
-	background-color: rgb(253, 248, 182);
+	background-color: rgb(245, 242, 202);
 	border-radius: 50px;
 	cursor: pointer;
 
@@ -79,7 +79,7 @@ body {
 }
 
 
-/* DEFINIÇÕES DO MODO DARK*/
+/* DEFINIÇÕES DO MODO DARK */
 body.dark {
 	background: #292C35;
 }
