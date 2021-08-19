@@ -16,6 +16,8 @@ body {
   justify-content: center;
   flex-direction: column;
 
+  height: 100vh;
+
   /* Transition para o efeito de troca não ser tão brusco */
   transition: background 0.2s linear;
 }
