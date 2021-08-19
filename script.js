@@ -12,23 +12,10 @@ const nightMode = () => {
     body.classList.toggle('dark');
     title.classList.toggle('dark');
     BGButton.classList.toggle('dark')
-
-    checkListItens()
+    listItens.forEach(element => {
+                    element.classList.add('dark')
+                })
 }
 
-
-// Função para verifica se os li possuem a classe dark usando o title como referência
-const checkListItens = () => {
-    if (title.classList.contains('dark')) {
-        listItens.forEach(element => {
-            element.classList.add('dark')
-        });
-    } else {
-        listItens.forEach(element => {
-            element.classList.remove('dark')
-        })
-    }
-}
-
-// Adiciona o evento no botão checkbox para quando "mudar" executar a função nightMode
+// Adiciona o evento no botão checkbox para quando houver uma "mudança" no botão executar a função nightmode
 check.addEventListener('change', nightMode);
