@@ -1,9 +1,7 @@
 // CAPTURA OS ELEMENTOS
-const button = document.querySelector("button");
-const darkModeBtn = document.getElementById('btn-darkmode');
 const body = document.querySelector('body');
 const title = document.querySelector('h1');
-const BGButton = document.querySelector('.label')
+const BGButton = document.querySelector('.label');
 const listItens = document.querySelectorAll('li');
 const check = document.getElementById('check');
 
