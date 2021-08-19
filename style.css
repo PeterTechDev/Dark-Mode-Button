@@ -37,6 +37,7 @@ body {
 .label {
 	background-color: rgb(245, 242, 202);
 	border-radius: 50px;
+  border: 1px solid #292C35;
 	cursor: pointer;
 
 	display: flex;
@@ -92,6 +93,8 @@ h1.dark {
 
 .label.dark {
 	background-color: rgb(0, 0, 0);
+  border: 1px solid #d0d3db;
+
 }
 
 li.dark {
