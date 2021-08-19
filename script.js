@@ -11,11 +11,11 @@ const check = document.getElementById('check');
 const nightMode = () => {
     body.classList.toggle('dark');
     title.classList.toggle('dark');
-    BGButton.classList.toggle('dark')
+    BGButton.classList.toggle('dark');
     listItens.forEach(element => {
-                    element.classList.add('dark')
-                })
+                    element.classList.toggle('dark')
+                });
 }
 
-// Adiciona o evento no botão checkbox para quando houver uma "mudança" no botão executar a função nightmode
+// Adiciona o evento no botão checkbox para quando "mudar", executar a função nightMode
 check.addEventListener('change', nightMode);
